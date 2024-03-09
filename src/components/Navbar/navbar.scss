@@ -1,0 +1,90 @@
+$color_1: white;
+$color_2: #12f7d6;
+$color_3: #ffffff;
+$color_4: #ccc;
+$font-family_1: IBM Plex Mono;
+$background-color_1: #292f36;
+$background-color_2: transparent;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: $background-color_1;
+  color: $color_1;
+  border-bottom: 1px solid white;
+}
+#logo {
+  font-size: 32px;
+  font-family: $font-family_1;
+  line-height: 20px;
+  color: $color_2;
+  margin-left: 30px;
+}
+#logo1 {
+  font-size: 32px;
+  font-family: $font-family_1;
+  font-weight: 500;
+  line-height: 42px;
+  color: $color_3;
+  margin-left: 5px;
+}
+.li1 {
+  font-family: $font-family_1;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: $color_2;
+}
+.li2 {
+  font-family: $font-family_1;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: $color_1;
+}
+.navbar-options {
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  li {
+    margin-right: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.search-input {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  border-radius: 15px;
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  button {
+    border: none;
+    background-color: $background-color_2;
+    cursor: pointer;
+  }
+  i {
+    color: $color_4;
+  }
+}
+.instagram {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.instagram-anchor {
+  font-family: $font-family_1;
+  color: $color_3;
+  font-size: 20px;
+  line-height: 20px;
+  padding-left: 5px;
+  text-decoration: none;
+}

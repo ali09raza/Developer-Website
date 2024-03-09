@@ -1,0 +1,189 @@
+$color_1: #ffffff;
+$color_2: #98faec;
+$color_3: black;
+$color_4: #029bca;
+$color_5: white;
+$font-family_1: Ubuntu;
+$font-family_2: IBM Plex Mono;
+$background-color_1: #292f36;
+$background-color_2: #0d0f11;
+$background-color_3: #0502ca;
+$background-color_4: #1c1f24;
+$background-color_5: aqua;
+body {
+  margin: 0;
+  padding: 0;
+}
+#homePage {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: $background-color_1;
+}
+.navbar1 {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  height: 300px;
+  margin: 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+  align-items: center;
+  background-color: $background-color_2;
+  padding: 20px;
+}
+.navItem {
+  color: $color_1;
+  margin-bottom: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: $background-color_3;
+  }
+}
+.heading {
+  width: 80%;
+  height: 70px;
+  margin-left: 40px;
+  color: $color_2;
+  text-align: center;
+  overflow: hidden;
+  p {
+    font-family: $font-family_1;
+    font-size: 60px;
+    margin: 0;
+  }
+}
+.profileDiv {
+  width: 300px;
+  height: 450px;
+  background-color: $background-color_4;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-content: center;
+  color: $color_1;
+  margin: 100px;
+  margin-top: 80px;
+  border: 10px groove white;
+  border-radius: 120px 0 120px 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  justify-content: center;
+  position: fixed;
+  margin-left: 140px;
+}
+.profileImage {
+  width: 96px;
+  border: 3px solid aqua;
+  height: 96px;
+  border-radius: 50%;
+  margin-left: 30%;
+  margin-top: 5px;
+}
+.personName {
+  font-family: $font-family_2;
+  font-size: 32px;
+  margin: 0px;
+  margin-left: 30%;
+}
+.profileText {
+  margin: 10px;
+  width: auto;
+  height: 70px;
+  margin-bottom: 0;
+}
+#subtext {
+  font-family: $font-family_2;
+  font-size: 14px;
+  margin-left: 20%;
+}
+.email-container {
+  display: flex;
+  align-items: center;
+}
+.email-icon {
+  margin-right: 10px;
+}
+.flex-container {
+  display: flex;
+  p {
+    margin: 5px;
+    padding: 3px;
+    background-color: $background-color_5;
+    color: $color_3;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+}
+.download-button {
+  width: 80%;
+  font-family: $font-family_1;
+  font-size: 25px;
+  padding: 7px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.additionalDiv {
+  position: fixed;
+  width: 500px;
+  height: 100px;
+  color: $color_1;
+  margin-left: 500px;
+  margin-top: 100px;
+  p {
+    font-family: $font-family_2;
+    font-size: 20px;
+    margin-left: 10px;
+    color: $color_2;
+    margin: 0;
+  }
+  .para2 {
+    margin-top: 20px;
+  }
+  .bigtext {
+    font-family: $font-family_1;
+    font-size: 50px;
+  }
+}
+.additionalDiv1 {
+  position: fixed;
+  width: 200px;
+  height: 400px;
+  color: $color_1;
+  margin-left: 1100px;
+  margin-top: 100px;
+  border: 1px solid #1c1f24;
+  border-radius: 50px;
+  background-color: $background-color_2;
+}
+.container1 {
+  margin-top: 50px;
+}
+.numbers {
+  display: inline;
+  margin: 0;
+  margin-left: 20px;
+  position: fixed;
+  font-size: 60px;
+  color: $color_4;
+}
+.text-container {
+  margin: 0;
+  padding-top: 10px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.numbers-text {
+  margin: 0;
+  font-size: 20px;
+}
+.numbers-text1 {
+  color: $color_5;
+  font-size: 20px;
+  margin: 0;
+}
