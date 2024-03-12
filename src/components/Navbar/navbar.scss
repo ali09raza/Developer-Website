@@ -9,77 +9,83 @@ $background-color_2: transparent;
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
   background-color: $background-color_1;
   color: $color_1;
   border-bottom: 1px solid white;
 }
+
 #logo {
   font-size: 32px;
   font-family: $font-family_1;
   line-height: 20px;
   color: $color_2;
-  margin-left: 30px;
 }
+
 #logo1 {
   font-size: 32px;
   font-family: $font-family_1;
   font-weight: 500;
   line-height: 42px;
   color: $color_3;
-  margin-left: 5px;
 }
-.li1 {
-  font-family: $font-family_1;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  color: $color_2;
-}
-.li2 {
-  font-family: $font-family_1;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  color: $color_1;
-}
+
 .navbar-options {
   ul {
     list-style: none;
     display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
+
   li {
     margin-right: 20px;
   }
+  .li1 {
+    font-family: $font-family_1;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: $color_2;
+  }
+  .li2 {
+    font-family: $font-family_1;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: $color_1;
+  }
+
   a {
     text-decoration: none;
   }
 }
+
 .search-input {
   display: flex;
   align-items: center;
   height: 25px;
   border-radius: 15px;
-  input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 5px;
-  }
+
   button {
     border: none;
     background-color: $background-color_2;
     cursor: pointer;
   }
+
   i {
     color: $color_4;
   }
 }
+
 .instagram {
   display: flex;
   align-items: center;
   padding-left: 10px;
 }
+
 .instagram-anchor {
   font-family: $font-family_1;
   color: $color_3;
@@ -87,4 +93,96 @@ $background-color_2: transparent;
   line-height: 20px;
   padding-left: 5px;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .instagram {
+    margin: 0;
+    padding: 2px;
+  }
+  .instagram-anchor {
+    margin: 0;
+    padding: 2px;
+  }
+  .li,
+  .li1,
+  .li2 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .search-input {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 40px;
+    border-radius: 15px;
+
+    button {
+      border: none;
+      background-color: $background-color_2;
+      cursor: pointer;
+    }
+  }
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 900px) {
+  .navbar {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .li1 {
+    margin: 5px;
+  }
+  .search-input {
+    display: flex;
+
+    align-items: flex-end;
+    height: 25px;
+    width: 50px;
+    border-radius: 15px;
+
+    button {
+      border: none;
+      background-color: $background-color_2;
+      cursor: pointer;
+    }
+    .searchIcon {
+      margin: 0;
+      padding: 0;
+      position: "absolute";
+      top: "50%";
+      right: "10px";
+      transform: "translateY(-50%)";
+      transform: "translateX(-80%)";
+    }
+  }
+
+  #logo,
+  #logo1 {
+    margin-bottom: 10px;
+  }
+
+  .navbar-options ul {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .navbar-options li {
+    margin: 5px 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .instagram-anchor,
+  .search-input,
+  .searchIcon {
+    display: none;
+  }
+  #logo1 {
+    font-size: 20px;
+  }
+  .instagram {
+    padding: 5px;
+  }
 }

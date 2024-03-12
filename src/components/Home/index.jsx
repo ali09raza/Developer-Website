@@ -35,6 +35,7 @@ export const HomePage = () => {
           <EmailIcon />
         </div>
       </div>
+
       <div className="heading">
         <p>Developer</p>
       </div>

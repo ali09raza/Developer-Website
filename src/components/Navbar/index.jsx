@@ -29,6 +29,7 @@ export const Navbar = () => {
             <li>
               <input className="search-input" type="text" />
               <Search
+                className="searchIcon"
                 style={{
                   position: "absolute",
                   top: "50%",
