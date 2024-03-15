@@ -1,0 +1,164 @@
+.home2 {
+  width: 100%px;
+  height: 100vh;
+  background-image: url(../../assets//images//background-image3.png);
+  background-size: cover;
+  opacity: 0.2;
+}
+#container3 {
+  position: absolute;
+  top: 1370px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container3-1 {
+  position: absolute;
+  top: 1400px;
+  left: 70%;
+}
+.skills {
+  position: absolute;
+  top: 1520px;
+  left: 50%;
+}
+.skills-p {
+  font-size: 40px;
+  color: aqua;
+  margin: 0;
+  position: absolute;
+  right: 80%;
+}
+
+.skills-p1 {
+  margin: 0;
+  margin-top: 60px;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  right: 40%;
+}
+.web-box {
+  position: absolute;
+  top: 1630px;
+  left: 30%;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.web-p {
+  font-size: 25px;
+}
+.html-p {
+  margin: 0;
+  font-size: 15px;
+}
+.app-box {
+  position: absolute;
+  top: 1630px;
+  left: 60%;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.progrmming-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  width: 800px;
+  height: 100px;
+  align-items: center;
+  position: absolute;
+  top: 1850px;
+  left: 25%;
+}
+.html5 {
+  background-color: rgb(255, 102, 0);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.css {
+  background-color: rgb(25, 22, 173);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.javascript {
+  background-color: rgb(224, 221, 45);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.react {
+  background-color: rgb(53, 206, 226);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+@media only screen and (max-width: 1300px) {
+  .home2 {
+    position: relative;
+    top: 700px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .home2 {
+    position: relative;
+    top: 900px;
+  }
+  #container3 {
+    top: 2200px;
+    left: 50%;
+    width: 50px;
+    height: 70px;
+  }
+  .container3-1 {
+    top: 2200px;
+    left: 70%;
+  }
+  .skills {
+    top: 2300px;
+    left: 50%;
+  }
+  .web-box {
+    top: 2450px;
+  }
+  .app-box {
+    top: 2650px;
+    left: 30%;
+  }
+  .progrmming-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+    height: 100px;
+    align-items: center;
+    position: absolute;
+    top: 2850px;
+    left: 5%;
+  }
+}
