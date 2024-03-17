@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import Home4 from "./components/Home4";
+import Blogs from "./components/Blogs";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,7 +14,7 @@ root.render(
           <Main />
         </Route>
         <Route path="/blogs">
-          <Home4 />
+          <Blogs />
         </Route>
       </Switch>
     </>

@@ -1,8 +1,8 @@
-import "./home1.scss";
+import "./page2.scss";
 import { ReactComponent as MouseIcon } from "../../assets/icons/MouseIcon.svg";
 import { ReactComponent as LineIcon } from "../../assets/icons/LineIcon.svg";
 import { ReactComponent as DiamondIcon } from "../../assets/icons/DiamondIcon.svg";
-const Home = () => {
+const Page2 = () => {
   return (
     <>
       <div className="home1"></div>
@@ -34,4 +34,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page2;

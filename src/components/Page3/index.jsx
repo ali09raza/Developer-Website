@@ -1,4 +1,4 @@
-import "./home2.scss";
+import "./page3.scss";
 import { ReactComponent as MouseIcon } from "../../assets/icons/MouseIcon.svg";
 import { ReactComponent as LineIcon } from "../../assets/icons/LineIcon.svg";
 import { ReactComponent as DiamondIcon } from "../../assets/icons/DiamondIcon.svg";
@@ -9,7 +9,7 @@ import { ReactComponent as Html5Icon } from "../../assets/icons/HTML5Icon.svg";
 import { ReactComponent as CssIcon } from "../../assets/icons/CssIcon.svg";
 import { ReactComponent as JavascriptIcon } from "../../assets/icons/JavascriptIcon.svg";
 import { ReactComponent as ReactIcon } from "../../assets/icons/ReactIcon.svg";
-const Home2 = () => {
+const Page3 = () => {
   return (
     <>
       <div className="home2"></div>
@@ -55,4 +55,4 @@ const Home2 = () => {
   );
 };
 
-export default Home2;
+export default Page3;

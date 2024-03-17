@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.scss";
+import "./page1.scss";
 import { ReactComponent as DashboardIcon } from "../../assets/icons/Dashboard.svg";
 import { ReactComponent as PersonIcon } from "../../assets/icons/PersonIcon.svg";
 import { ReactComponent as CodeIcon } from "../../assets/icons/CodeIcon.svg";
@@ -12,7 +12,7 @@ import profile from "../../assets/images/profile.png";
 import { ReactComponent as BagIcon } from "../../assets/icons/BagIcon.svg";
 import { ReactComponent as ChainIcon } from "../../assets/icons/ChainIcon.svg";
 import { ReactComponent as DownloadIcon } from "../../assets/icons/DownloadIcon.svg";
-const HomePage = () => {
+const Page1 = () => {
   return (
     <div id="homePage">
       <div className="navbar1">
@@ -115,4 +115,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Page1;

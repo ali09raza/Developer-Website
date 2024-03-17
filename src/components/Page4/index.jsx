@@ -1,9 +1,9 @@
 import { ReactComponent as MouseIcon } from "../../assets/icons/MouseIcon.svg";
 import { ReactComponent as LineIcon } from "../../assets/icons/LineIcon.svg";
 import { ReactComponent as DiamondIcon } from "../../assets/icons/DiamondIcon.svg";
-import "./home3.scss";
+import "./page4.scss";
 import { ReactComponent as LeftAngleBracketIcon } from "../../assets/icons/LeftAngleBracket.svg";
-const Home3 = () => {
+const Page4 = () => {
   return (
     <div>
       <div className="home3"></div>
@@ -30,4 +30,4 @@ const Home3 = () => {
   );
 };
 
-export default Home3;
+export default Page4;

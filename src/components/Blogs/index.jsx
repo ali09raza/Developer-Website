@@ -1,9 +1,9 @@
 import { ReactComponent as MouseIcon } from "../../assets/icons/MouseIcon.svg";
 import { ReactComponent as LineIcon } from "../../assets/icons/LineIcon.svg";
 import { ReactComponent as DiamondIcon } from "../../assets/icons/DiamondIcon.svg";
-import "./home4.scss";
+import "./blogs.scss";
 
-const Home4 = () => {
+const Blogs = () => {
   return (
     <div>
       <div className="home4"></div>
@@ -36,4 +36,4 @@ const Home4 = () => {
   );
 };
 
-export default Home4;
+export default Blogs;

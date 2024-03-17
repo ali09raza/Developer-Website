@@ -1,17 +1,17 @@
 import React from "react";
 
-import HomePage from "../Home";
-import Home1 from "../Home1";
-import Home2 from "../Home2";
-import Home3 from "../Home3";
+import Page1 from "../Page1";
+import Page2 from "../Page2";
+import Page3 from "../Page3";
+import Page4 from "../Page4";
 
 const Main = () => {
   return (
     <div>
-      <HomePage />
-      <Home1 />
-      <Home2 />
-      <Home3 />
+      <Page1 />
+      <Page2 />
+      <Page3 />
+      <Page4 />
     </div>
   );
 };
