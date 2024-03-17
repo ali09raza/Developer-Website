@@ -50,24 +50,26 @@
   top: 2200px;
   width: 800px;
   height: 500px;
+
   background-image: url("../../assets//images//devices.png");
   background-size: cover;
 }
 .code-image {
   position: absolute;
-  left: 338px;
-  top: 2265px;
-  width: 260px;
-  height: 350px;
+  left: 20%;
+  top: 2270px;
+  width: 265px;
+  height: 340px;
+  margin-left: 65px;
   background-image: url("../../assets//images/gallery1.jpeg");
   background-size: cover;
 }
 .code-image1 {
   position: absolute;
-  left: 644px;
+  left: 48%;
   top: 2363px;
-  width: 370px;
-  height: 220px;
+  width: 365px;
+  height: 210px;
   background-image: url("../../assets//images/gallery2.png");
   background-size: cover;
 }
@@ -75,5 +77,33 @@
   .home3 {
     position: relative;
     top: 700px;
+  }
+  .gallery {
+    display: none;
+  }
+  .code-image1 {
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .home3 {
+    position: relative;
+    top: 1000px;
+  }
+  #container4 {
+    top: 3000px;
+  }
+  .page4-text {
+    top: 3100px;
+  }
+  .code-image {
+    top: 3300px;
+  }
+  .code-image1 {
+    position: absolute;
+    margin: 0px;
+    padding: 0;
+    top: 3700px;
+    left: 20%;
   }
 }

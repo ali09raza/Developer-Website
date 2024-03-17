@@ -21,9 +21,11 @@ const Home3 = () => {
       <div className="leftangle">
         <LeftAngleBracketIcon />
       </div>
-      <div className="gallery"></div>
-      <div className="code-image"></div>
-      <div className="code-image1"></div>
+      <div>
+        <div className="gallery"></div>
+        <div className="code-image"></div>
+        <div className="code-image1"></div>
+      </div>
     </div>
   );
 };
