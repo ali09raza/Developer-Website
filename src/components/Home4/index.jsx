@@ -2,12 +2,10 @@ import { ReactComponent as MouseIcon } from "../../assets/icons/MouseIcon.svg";
 import { ReactComponent as LineIcon } from "../../assets/icons/LineIcon.svg";
 import { ReactComponent as DiamondIcon } from "../../assets/icons/DiamondIcon.svg";
 import "./home4.scss";
-import Navbar from "../Navbar";
 
 const Home4 = () => {
   return (
     <div>
-      <Navbar />
       <div className="home4"></div>
       <div id="container5">
         <MouseIcon />

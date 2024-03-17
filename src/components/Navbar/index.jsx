@@ -4,8 +4,8 @@ import { ReactComponent as Search } from "../../assets/icons/Search-icon.svg";
 import { ReactComponent as Instagram } from "../../assets/icons/Instagram.svg";
 import { ReactComponent as Discord } from "../../assets/icons/Discord.svg";
 import { ReactComponent as Github } from "../../assets/icons/Github.svg";
-
-export const Navbar = () => {
+import { Link } from "react-router-dom";
+const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
@@ -16,14 +16,14 @@ export const Navbar = () => {
       <div className="navbar-options">
         <ul>
           <li>
-            <a className="li1" href="#Home">
+            <Link to="/" className="li1">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="li2" href="#Home">
+            <Link to="/blogs" className="li2">
               Blogs
-            </a>
+            </Link>
           </li>
           <div style={{ position: "relative" }}>
             <li>

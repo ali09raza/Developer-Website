@@ -12,7 +12,7 @@ import profile from "../../assets/images/profile.png";
 import { ReactComponent as BagIcon } from "../../assets/icons/BagIcon.svg";
 import { ReactComponent as ChainIcon } from "../../assets/icons/ChainIcon.svg";
 import { ReactComponent as DownloadIcon } from "../../assets/icons/DownloadIcon.svg";
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <div id="homePage">
       <div className="navbar1">
